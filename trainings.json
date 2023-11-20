@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "trainings",
+    "dateExported": "2023-11-20T13:38:22.007Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "77f721bd-9bc9-41e8-957b-750b9f21af64",
+            "colId": "a2114323-1ac2-42e9-a0c9-de87bc0bc912",
+            "containerId": "",
+            "name": "GET ALL TRAININGS",
+            "url": "localhost:3000/api/trainings",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-20T13:08:30.943Z",
+            "modified": "2023-11-20T13:09:00.477Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a7691312-378d-435a-ab1f-3dc923a2b398",
+            "colId": "a2114323-1ac2-42e9-a0c9-de87bc0bc912",
+            "containerId": "",
+            "name": "GET KÉPZÉS ID ALAPJAN",
+            "url": "localhost:3000/api/trainings/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-20T13:12:32.862Z",
+            "modified": "2023-11-20T13:12:49.731Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cca91f15-7f30-464c-9795-d5b572dab9e5",
+            "colId": "a2114323-1ac2-42e9-a0c9-de87bc0bc912",
+            "containerId": "",
+            "name": "POST UJ KEPZES FELVETELE",
+            "url": "localhost:3000/api/trainings",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-20T13:13:24.699Z",
+            "modified": "2023-11-20T13:14:05.792Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_ID\":3\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "58a9960a-1208-4884-870a-91ba8f0c7394",
+            "colId": "a2114323-1ac2-42e9-a0c9-de87bc0bc912",
+            "containerId": "",
+            "name": "PUT  KEPZES FRISSÍTÉSE",
+            "url": "localhost:3000/api/trainings/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-20T13:14:29.634Z",
+            "modified": "2023-11-20T13:14:59.291Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_ID\":3\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5042c669-64d7-4b98-9ac5-98c6a35d86da",
+            "colId": "a2114323-1ac2-42e9-a0c9-de87bc0bc912",
+            "containerId": "",
+            "name": "DELETE KÉPZÉS TÖRLÉS",
+            "url": "localhost:3000/api/trainings/2",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-11-20T13:15:23.698Z",
+            "modified": "2023-11-20T13:15:38.785Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
